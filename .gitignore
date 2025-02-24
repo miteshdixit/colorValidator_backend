@@ -2,7 +2,6 @@
 node_modules/
 
 # Environment variables
-.env
 
 # Logs
 logs/
@@ -16,10 +15,14 @@ yarn-error.log*
 Thumbs.db
 
 # Editor folders and files
-.vscode/
 .idea/
 *.swp
 
 # Optional: Ignore compiled output
 dist/
 build/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
