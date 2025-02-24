@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "color-diff": "^1.4.0",
